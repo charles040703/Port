@@ -1,0 +1,76 @@
+
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: 'Rubik';
+    background: linear-gradient(rgba(2, 2, 2, 0.9),rgba(2,4,1,0.7)) ;
+}
+
+.container {
+    margin-top: 0%;
+    padding-bottom: 10%;
+}
+
+.container-fluid{
+    margin-top: 8%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.monaco{
+    /* PhotoPro */
+    margin-top:10%;
+    margin-left: 3%;
+    width: 40%;
+    height: 55%;
+
+}
+
+.soleil-paris{
+     /*Le soleil affaiblissant */
+     margin: 30% 0 0 15%;
+     width: 35%;
+     height: 30%;
+}
+.parisienne{
+    
+    margin: 15% 0 0 10%;
+    width: 40%;
+    height: 50%;
+}
+
+.feu-artifice{
+  
+    margin: 11.5% 0 0 12%;
+    width: 35%;
+    height: 91%;
+}
+.soleil-feuille{
+    margin: 12% 0 0 10%;
+    width: 39.5%;
+}
+.calvi-night{
+    margin: 12% 0 0 10%;
+    width: 39.5%;
+
+}
+.calvi-church{
+    margin: 10% 0 0 32%;
+    width: 40%;
+}
+.skater{
+    margin: 35% 0 0 8%;
+    width: 30%;
+    height: 40%;
+}
+.samedi-soir{
+    width: 35%;
+    margin: 30% 0 0 15%;
+}
+.window{
+    width: 80%;
+    margin: 25% 0 0 12%;
+}
