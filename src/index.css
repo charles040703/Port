@@ -76,7 +76,7 @@ body{
 }
 
 @supports (display: flex) {
-    @media screen and (max-width: 400px) {
+    @media screen and (min-width: 400px) {
         .skater{
             display: none;   
         }
