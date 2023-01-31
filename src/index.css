@@ -86,8 +86,12 @@ body{
 @supports (display: flex) {
     @media screen and (min-width: 400px) {
         .container-fluid{
+            
             flex-flow: row wrap;
             flex-direction: row;
+        }
+        h1{
+            size: 5%;
         }
     }
 }
