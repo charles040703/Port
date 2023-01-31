@@ -74,3 +74,9 @@ body{
     width: 80%;
     margin: 25% 0 0 12%;
 }
+
+@media(max-width: 400px) {
+    .header{
+        background-image: none;   
+    }
+}
