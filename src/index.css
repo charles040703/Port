@@ -22,6 +22,7 @@ body{
 
 .monaco{
     /* PhotoPro */
+    display: flex;
     margin-top:10%;
     margin-left: 3%;
     width: 40%;
@@ -31,46 +32,53 @@ body{
 
 .soleil-paris{
      /*Le soleil affaiblissant */
+     display: flex;
      margin: 30% 0 0 15%;
      width: 35%;
      height: 30%;
 }
 .parisienne{
-    
+    display: flex;
     margin: 15% 0 0 10%;
     width: 40%;
     height: 50%;
 }
 
 .feu-artifice{
-  
+    display: flex;
     margin: 11.5% 0 0 12%;
     width: 35%;
     height: 91%;
 }
 .soleil-feuille{
+    display: flex;
     margin: 12% 0 0 10%;
     width: 39.5%;
 }
 .calvi-night{
+    display: flex;
     margin: 12% 0 0 10%;
     width: 39.5%;
 
 }
 .calvi-church{
+    display: flex;
     margin: 10% 0 0 32%;
     width: 40%;
 }
 .skater{
+    display: flex;
     margin: 35% 0 0 8%;
     width: 30%;
     height: 40%;
 }
 .samedi-soir{
+    display: flex;
     width: 35%;
     margin: 30% 0 0 15%;
 }
 .window{
+    display: flex;
     width: 80%;
     margin: 25% 0 0 12%;
 }
