@@ -77,8 +77,9 @@ body{
 
 @supports (display: flex) {
     @media screen and (min-width: 400px) {
-        .skater{
-            display: none;   
+        .container-fluid{
+            flex-flow: row wrap;
+            flex-direction: row;
         }
     }
 }
