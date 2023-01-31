@@ -77,6 +77,6 @@ body{
 
 @media(max-width: 400px) {
     .header{
-        background-image: none;   
+        background-color: aqua;   
     }
 }
