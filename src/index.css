@@ -75,11 +75,4 @@ body{
     margin: 25% 0 0 12%;
 }
 
-@supports (display: flex) {
-    @media screen and (min-width: 400px) {
-        .container-fluid{
-            flex-flow: row wrap;
-            flex-direction: row;
-        }
-    }
-}
+
