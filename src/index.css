@@ -63,7 +63,7 @@ body{
 }
 .skater{
     margin: 35% 0 0 8%;
-    width: 10%;
+    width: 30%;
     height: 40%;
 }
 .samedi-soir{
@@ -75,4 +75,11 @@ body{
     margin: 25% 0 0 12%;
 }
 
-
+@supports (display: flex) {
+    @media screen and (min-width: 400px) {
+        .container-fluid{
+            flex-flow: row wrap;
+            flex-direction: row;
+        }
+    }
+}
