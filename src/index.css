@@ -1,3 +1,9 @@
+:root{
+    --transition: all 300ms ease-in-out;
+    --dark-color: #332e29;
+    --light-color: #fff;
+}
+
 
 html{
     scroll-behavior:smooth;
@@ -12,86 +18,92 @@ body{
     padding-bottom: 10%;
 }
 
-.container-fluid{
-    margin-top: 8%;
+.container h2, p{
+    color: aliceblue;
+}
+
+.about-content{
+    margin-top: 15%;
+}
+
+.portfolio .title{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 8%;
+    margin-left: 13%;
+
+}
+.portfolio{
+    margin-top: 30%;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
 }
 
-
-.monaco{
-    /* PhotoPro */
-    display: flex;
-    margin-top:10%;
-    margin-left: 3%;
-    width: 40%;
-    height: 55%;
-
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
 }
 
-.soleil-paris{
-     /*Le soleil affaiblissant */
-     display: flex;
-     margin: 30% 0 0 15%;
-     width: 35%;
-     height: 30%;
-}
-.parisienne{
-    display: flex;
-    margin: 15% 0 0 10%;
-    width: 40%;
-    height: 50%;
+.portfolio-grid > div{
+    transition: var(--transition);
 }
 
-.feu-artifice{
-    display: flex;
-    margin: 11.5% 0 0 12%;
-    width: 35%;
-    height: 91%;
+.portfolio-grid > div:hover{
+    transform: scale(0.96);
 }
-.soleil-feuille{
-    display: flex;
-    margin: 12% 0 0 10%;
-    width: 39.5%;
-}
-.calvi-night{
-    display: flex;
-    margin: 12% 0 0 10%;
-    width: 39.5%;
 
-}
-.calvi-church{
-    display: flex;
-    margin: 10% 0 0 32%;
-    width: 40%;
-}
-.skater{
-    display: flex;
-    margin: 35% 0 0 8%;
-    width: 30%;
-    height: 40%;
-}
-.samedi-soir{
-    display: flex;
-    width: 35%;
-    margin: 30% 0 0 15%;
-}
-.window{
-    display: flex;
-    width: 80%;
-    margin: 25% 0 0 12%;
-}
+
 
 @supports (display: flex) {
-    @media screen and (min-width: 400px) {
+    @media screen and (min-width: 10px) and (max-width:400px) {
         .container-fluid{
             
             flex-flow: row wrap;
             flex-direction: row;
         }
         h1{
-            font-size: 2.5em
+            display: none;
+            font-size: 1.5em !important;
         }
     }
+}
+@media(min-width:576px){
+    .title h2{
+        font-size: 4rem;
+    }
+    .portfolio-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .portfolio-grid > div{
+        height: 800px;
+        overflow:visible;
+    }
+    .portfolio-grid > div img{
+        height: 100%;
+        object-fit:cover;
+    }
+}
+@media(min-width: 768px){
+    .header-content h1{
+        font-size: 7rem;
+    }
+    .about-content{
+        
+        column-gap: 6rem;
+        row-gap: 0;
+    }
+}
+
+@media(min-width: 1200px){
+    .portfolio-grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .portfolio-grid > div:nth-child(2){
+        grid-column: 2 / 4;
+    }
+    .portfolio-grid > div:nth-child(6){
+        grid-column: 1 / 3;
+     }
 }
