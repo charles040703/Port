@@ -84,6 +84,7 @@ h1, h2, h3{
 }
 .header-content{
     padding-bottom: 2rem;
+    
 }
 .header-content h1{
     font-size: 4.5rem;
@@ -101,8 +102,8 @@ h1, h2, h3{
 .social-links{
     display: flex;
     margin-top: 3.5rem;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-end;
+    justify-content:end;
 }
 .social-links li a{
     width: 60px;

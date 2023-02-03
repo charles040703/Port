@@ -12,6 +12,10 @@ body{
     font-family: 'Rubik';
     background: linear-gradient(rgba(2, 2, 2, 0.9),rgba(2,4,1,0.7)) ;
 }
+img{
+    width: 100%;
+    display: block;
+}
 
 .container {
     margin-top: 0%;
@@ -24,6 +28,7 @@ body{
 
 .about-content{
     margin-top: 15%;
+    line-height: 3.8rem;
 }
 
 .portfolio .title{
@@ -54,6 +59,18 @@ body{
     transform: scale(0.96);
 }
 
+/* contact */
+
+.contact-content{
+    margin-top: 3rem;
+    align-items: stretch;
+    padding: 9rem 0 9rem 0;
+}
+
+.lead{
+    align-items: center;
+    justify-content: center;    
+}
 
 
 @supports (display: flex) {
