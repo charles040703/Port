@@ -33,7 +33,7 @@ ul{
 }
 a{
     text-decoration: none;
-    color: var(--dark-color);
+    color: var(--light-color);
 }
 img{
     width: 100%;
@@ -100,14 +100,11 @@ h1, h2, h3{
 }
 .social-links{
     display: flex;
-    margin-top: 3.5rem;
-    align-items: center;
-    justify-content: center;
 }
 .social-links li a{
     width: 60px;
     height: 40px;
-    background-color: var(--light-color);
+    background-color: var(--dark-color);
     margin-right: 1rem;
     border-radius: .3rem;
     box-shadow: 0 0 6px 5px rgba(0, 0, 0, 0.2);
