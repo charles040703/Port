@@ -80,13 +80,14 @@ img{
             flex-flow: row wrap;
             flex-direction: row;
         }
-        h1{
-            display: none;
-            font-size: 1.5em !important;
+        .header-content h1{
+            font-size: 2rem !important;
         }
     }
-}
+
+
 @media(min-width:576px){
+
     .title h2{
         font-size: 4rem;
     }
@@ -123,4 +124,5 @@ img{
     .portfolio-grid > div:nth-child(6){
         grid-column: 1 / 3;
      }
+}
 }
