@@ -166,7 +166,7 @@ img{
         text-align:center;
     }
     #header{
-        background-size:20% 100%;
+        background-size:contain;
     }
 
 }
