@@ -142,9 +142,7 @@ img{
         .container .blink{
             font-size: medium;
         }
-        #header{
-            background-size:140%;
-        }
+
     }
 
 
@@ -166,6 +164,9 @@ img{
     }
     .container #Site{
         text-align:center;
+    }
+    #header{
+        background-size:140%;
     }
 
 }
