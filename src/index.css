@@ -96,10 +96,19 @@ img{
     font-size: 300%;
     margin-left: 40% ;
 }
+.container .blink{
+    text-align: center;
+    background-color: white;
+
+    border-radius: .3rem;
+    box-shadow: 0 0 6px 5px rgba(0, 0, 0, 0.2);
+    
+}
 /*Carousel*/
 .container #Site{
-    text-align: center;
+    text-align:start;
 }
+
 
 /* contact */
 
@@ -144,6 +153,9 @@ img{
         height: 100%;
         object-fit:cover;
     }
+    .container #Site{
+        text-align:center;
+    }
 
 }
 @media(min-width: 768px){
@@ -155,6 +167,7 @@ img{
         column-gap: 6rem;
         row-gap: 0;
     }
+
 }
 
 @media(min-width: 1200px){
@@ -167,5 +180,6 @@ img{
     .portfolio-grid > div:nth-child(6){
         grid-column: 1 / 3;
      }
+
 }
 }
