@@ -162,6 +162,10 @@ img{
         #header{
             background-size: contain !important;
         }     
+        #quote{
+
+            color:#fff;
+        }
      }
 }
 @media(min-width: 768px){
