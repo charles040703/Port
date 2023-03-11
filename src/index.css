@@ -165,10 +165,7 @@ img{
     .container #Site{
         text-align:center;
     }
-    
-    #header{
-        background-size:contain;
-    }
+
 
 }
 @media(min-width: 768px){
