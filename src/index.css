@@ -4,7 +4,6 @@
     --light-color: #fff;
 }
 
-
 html{
     scroll-behavior:smooth;
 }
@@ -163,8 +162,7 @@ img{
             background-size: contain !important;
         }     
         #quote{
-
-            color:#fff;
+            color:#fff !important;
         }
      }
 }
