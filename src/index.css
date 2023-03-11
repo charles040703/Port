@@ -3,14 +3,7 @@
     --dark-color: #332e29;
     --light-color: #fff;
 }
-#header{
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('../images/Cover.jpg')fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    justify-content: flex-start;
-    align-items: flex-end;
-}
+
 
 html{
     scroll-behavior:smooth;
@@ -34,7 +27,6 @@ img{
 }
 .about-right{
     display: flex !important;
-    
     float: right;
 }
 .about-content{
