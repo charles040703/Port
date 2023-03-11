@@ -76,7 +76,7 @@ h1, h2, h3{
 /* header  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),*/
 #header{
     background: url('../images/Cover.jpg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     justify-content: flex-start;

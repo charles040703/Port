@@ -158,7 +158,11 @@ img{
         text-align:center;
     }
 
-
+    @media (max-width: 767px) {
+        #header{
+            background-size: contain !important;
+        }     
+     }
 }
 @media(min-width: 768px){
     .header-content h1{
