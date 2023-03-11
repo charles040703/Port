@@ -3,7 +3,14 @@
     --dark-color: #332e29;
     --light-color: #fff;
 }
-
+#header{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('../images/Cover.jpg')fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
 
 html{
     scroll-behavior:smooth;
@@ -99,10 +106,8 @@ img{
 .container .blink{
     text-align: center;
     background-color: white;
-
     border-radius: .3rem;
-    box-shadow: 0 0 6px 5px rgba(0, 0, 0, 0.2);
-    
+    box-shadow: 0 0 6px 5px rgba(0, 0, 0, 0.2); 
 }
 /*Carousel*/
 .container #Site{
@@ -133,6 +138,12 @@ img{
         }
         .header-content h1{
             font-size: 2rem !important;
+        }
+        .container .blink{
+            font-size: medium;
+        }
+        #header{
+            background-size:163%;
         }
     }
 
