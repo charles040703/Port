@@ -160,7 +160,7 @@ img{
 
     @media (max-width: 767px) {
         #header{
-            background-size: 110% 100% !important;
+            background-size: contain !important;
         }     
      }
 }
