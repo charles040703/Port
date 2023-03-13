@@ -121,7 +121,7 @@ img{
 
 
 @supports (display: flex) {
-    @media screen and (min-width: 10px) and (max-width:400px) {
+    @media screen and (min-width: 10px) and (max-width:470px) {
         .container-fluid{
             
             flex-flow: row wrap;
